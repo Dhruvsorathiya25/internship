@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: rgb(56, 191, 135);
+  padding: 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.biography,
+.achievements,
+.quotes {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  font-style: italic;
+  background: #f9f9f9;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.quote-image {
+  text-align: center;
+  flex-direction: row;
+  width: 200px;
+  height: auto;
+  border-radius: 20%;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
